@@ -1,0 +1,45 @@
+body {
+  margin: 1rem;
+  /* height: 100%; 
+  min-height: 100%; */
+  position: relative;
+}
+
+body::after {
+  content: '';
+  display: block;
+  height: 180px;
+}
+
+th {
+  background-color: #08052b;
+  color: white;
+}
+/* tr:nth-child(odd) {
+  background-color: grey;
+} */
+/* th, td {
+  padding: 0.5rem;
+} */
+/* td:hover {
+  background-color: skyblue;
+} */
+
+.paginate_button {
+  border-radius: 0 !important;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  /* height: 180px; */
+}
