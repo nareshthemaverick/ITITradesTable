@@ -6,9 +6,9 @@ body {
 }
 
 body::after {
-  content: '';
+  /* content: ''; */
   display: block;
-  height: 180px;
+  /* height: 180px; */
 }
 
 th {
@@ -35,11 +35,53 @@ button:hover {
 }
 
 .footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
   width: 100%;
   background-color: white;
   color: black;
   text-align: center;
   /* height: 180px; */
+}
+
+.tablediv {
+  width: 50%;
+}
+
+.header {
+  font-size: larger;
+}
+
+.footer-address {
+  float: left;
+  margin-left: 26%;
+
+}
+.footer-contact {
+  float: right;
+  margin-right: 26%;
+}
+
+img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class="tablediv"] {
+    width: 100%;
+  }
+  [class="header"] {
+    font-size: 10px;
+    width: 100%;
+  }
+  [class="footer-address"] {
+    float: none;
+    margin-left: auto;
+  }
+  [class="footer-contact"] {
+    float: none;
+    margin-right: auto;
+  }
 }
