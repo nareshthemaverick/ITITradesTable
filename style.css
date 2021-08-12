@@ -71,6 +71,7 @@ img {
   /* For mobile phones: */
   [class="tablediv"] {
     width: auto;
+    font-size: x-small;
   }
   [class="header"] {
     font-size: 14px;
