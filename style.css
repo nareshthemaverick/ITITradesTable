@@ -70,7 +70,7 @@ img {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class="tablediv"] {
-    width: 100%;
+    width: auto;
   }
   [class="header"] {
     font-size: 14px;
@@ -83,5 +83,8 @@ img {
   [class="footer-contact"] {
     float: none;
     margin-right: auto;
+  }
+  body {
+    margin: 0rem;
   }
 }
