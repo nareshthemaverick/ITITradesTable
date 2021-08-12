@@ -48,7 +48,7 @@ button:hover {
 }
 
 .header {
-  font-size: larger;
+  font-size: x-large;
 }
 
 .footer-address {
@@ -73,7 +73,7 @@ img {
     width: 100%;
   }
   [class="header"] {
-    font-size: 10px;
+    font-size: 14px;
     width: 100%;
   }
   [class="footer-address"] {
