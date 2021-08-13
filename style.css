@@ -44,7 +44,8 @@ button:hover {
 }
 
 .tablediv {
-  width: 50%;
+  width: 88%;
+  font-size: 15px;
 }
 
 .header {
@@ -67,7 +68,7 @@ img {
   height: auto ;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
   /* For mobile phones: */
   [class="tablediv"] {
     width: auto;
